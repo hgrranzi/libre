@@ -9,5 +9,6 @@
 
 int	aka_isalpha(int c);
 int	aka_isdigit(int c);
+int	aka_isalnum(int c);
 
 #endif

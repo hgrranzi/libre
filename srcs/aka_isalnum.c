@@ -6,7 +6,7 @@
 
 #include "aka_ctype.h"
 
-int		ft_isalnum(int c)
+int		aka_isalnum(int c)
 {
-	return (ft_isalpha(c) || ft_isdigit(c));
+	return (aka_isalpha(c) || aka_isdigit(c));
 }
