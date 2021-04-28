@@ -4,13 +4,7 @@
 /*                                                 */
 /* *********************************************** */
 
-#ifndef AKA_CTYPE_H
-# define AKA_CTYPE_H
-
-int	aka_isalpha(int c);
-int	aka_isupper(int c);
-int	aka_islower(int c);
-int	aka_isdigit(int c);
-int	aka_isalnum(int c);
-
-#endif
+int		aka_islower(int c)
+{
+	return (c >= 'a' && c <= 'z');
+}
