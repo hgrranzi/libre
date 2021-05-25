@@ -4,13 +4,14 @@
 /*                                                 */
 /* *********************************************** */
 
-#ifndef AKA_STRING_H
-# define AKA_STRING_H
+#include "aka_string.h"
 
-# include <stdlib.h>
+size_t	aka_strlen(const char *s)
+{
+	size_t	i;
 
-int		aka_strcmp(const char *s1, const char *s2);
-size_t	aka_strlen(const char *s);
-char	*aka_strdup(const char *s);
-
-#endif
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
+}
